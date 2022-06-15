@@ -38,7 +38,7 @@ main{
     width: 93vw;
     height: 93vw;
     background-size: cover;
-    background-image: url("images/Ommig.png");
+    background-image: url("images/ommig.png");
     margin: 1rem;
     margin-right: 1rem;
 }
@@ -47,7 +47,7 @@ main{
     width: 93vw;
     height: 93vw;
     background-size: cover;
-    background-image: url("images/Kontakt.png");
+    background-image: url("images/kontakt.png");
     margin: 1rem;
     margin-right: 1rem;
 }
@@ -93,28 +93,28 @@ main{
         width: 25vw;
         height:25vw;
         background-size: cover;
-        background-image: url("images/Ommig.png");
+        background-image: url("images/ommig.png");
     }
 
     .btnOm:hover {
        width: 25vw;
        height:25vw;
        background-size: cover;
-       background-image: url("images/OmmigHover.png");
+       background-image: url("images/ommigHover.png");
    }
 
     .btnKo {
         width: 25vw;
         height:25vw;
         background-size: cover;
-        background-image: url("images/Kontakt.png");
+        background-image: url("images/kontakt.png");
     }
 
     .btnKo:hover {
     width: 25vw;
     height:25vw;
     background-size: cover;
-    background-image: url("images/KontaktHover.png");
+    background-image: url("images/kontaktHover.png");
     }
 
  }

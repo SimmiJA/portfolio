@@ -1,7 +1,7 @@
 main{
     max-width:1200px; 
-    margin: 0 auto;
-    margin-bottom: 2rem;
+    margin: 1vw;
+
  }
  
  img {
@@ -24,11 +24,102 @@ main{
     font-family: Arial, Helvetica, sans-serif;
  }
 
- h3 {
+ h2 {
     font-size: 2rem;
     font-family: helvetica;
     font-weight: 500;
  }
+
+ h1 {
+    font-family: Arial, Helvetica, sans-serif ;
+    font-size: 4rem;
+    font-weight: 500;
+ }
+
+ .container {
+    display: inline-block;
+    cursor: pointer;
+    position: fixed;
+    right: 1rem;
+    z-index: 10;
+  }
+
+  
+  .bar1,
+  .bar2,
+  .bar3 {
+    width: 35px;
+    height: 5px;
+    background-color: #E84E1B;
+    margin: 6px 0;
+    transition: 0.4s;
+  }
+  
+  .change .bar1 {
+    -webkit-transform: rotate(-45deg) translate(-9px, 6px);
+    transform: rotate(-45deg) translate(-8px, 6px);
+    background-color: #E84E1B;
+  }
+  
+  .change .bar2 {
+    opacity: 0;
+  }
+  
+  .change .bar3 {
+    -webkit-transform: rotate(45deg) translate(-8px, -8px);
+    transform: rotate(45deg) translate(-9px, -8px);
+    background-color: #E84E1B;
+  }
+  
+  .hide {
+    display: none;
+  }
+  
+  .navigation {
+    margin: 0;
+    width: 100%;
+    height: 60vh;
+    color: white;
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 9;
+    background-color: #F4ABCD;
+  }
+  
+  ul {
+    list-style-type: none;
+    font-size: 3rem;
+    font-family: helvetica;
+  }
+  
+  li {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  }
+
+  a {
+    position: relative;
+    text-decoration: none;
+    color: black;
+    font-size: 3rem;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+
+  a:hover {
+    background-color: #F4ABCD;
+    color: white;
+}
+
+.t2link {
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+ 
+}
+
+
 
  @media (min-width: 600px) {
      body {
@@ -109,7 +200,7 @@ main{
       .logo {
         font-family: Arial, Helvetica, sans-serif ;
         font-size: 5rem;
-        font-weight: 500px;
+        font-weight: 500;
 
      }
 
@@ -151,6 +242,8 @@ main{
     .background {
         background-image: url("images/bakgrunnur.png");
         position: absolute;
+        width: 100%;
+        height: 100%;
     }
 
     .gridPo1 {
@@ -271,6 +364,83 @@ main{
         gap: 2rem;
         position: absolute;
         top: 220vw;
+        max-width: 100%;
+        padding-right: 5rem;
+    }
+
+    .t4img1 {
+        position: absolute;
+        top: 245vw;
+        left: 6vw;
+        width: 40%;
+    }
+
+    .t4img1:hover {
+        z-index: +5;
+    }
+
+    .t4img2 {
+        position: absolute;
+        top: 254vw;
+        left: 20vw;
+        width: 30%;
+    }
+
+    .t4img2:hover {
+        z-index: +5;
+    }
+
+    .t4img3 {
+        position: absolute;
+        top: 250vw;
+        left: 3vw;
+        width: 20%;
+    }
+
+    .t4img4 {
+        position: absolute;
+        top: 250vw;
+        left: 43vw;
+        width: 20%;
+    }
+
+    .t4img4:hover {
+        z-index: +5;
+    }
+
+    .t4img5 {
+        position: absolute;
+        top: 250vw;
+        left: 43vw;
+        width: 50%;
+    }
+
+    .t4img5:hover {
+        z-index: +5;
+    }
+
+    .t4img6 {
+        position: absolute;
+        top: 250vw;
+        left: 74vw;
+        width: 20%;
+    }
+
+    #t5 {
+        position: absolute;
+          top: 286vw;
+          font-family: Arial, Helvetica, sans-serif;
+          font-weight: 500;
+          font-style: normal;
+          font-size: 3rem;
+      }
+
+      .gridPo4 {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 2rem;
+        position: absolute;
+        top: 295vw;
         max-width: 100%;
         padding-right: 5rem;
     }

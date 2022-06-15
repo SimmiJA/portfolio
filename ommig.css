@@ -1,0 +1,237 @@
+main{
+    max-width:1200px; 
+    margin: 1vw;
+
+ }
+ 
+ img {
+     max-width: 100%;
+ }
+
+ p {
+    max-width: 65ch;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+ }
+
+ p {
+    max-width: 65ch;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+ }
+
+ h2 {
+    font-size: 2rem;
+    font-family: helvetica;
+    font-weight: 500;
+ }
+
+ h1 {
+    font-family: Arial, Helvetica, sans-serif ;
+    font-size: 4rem;
+    font-weight: 500;
+ }
+
+ .container {
+    display: inline-block;
+    cursor: pointer;
+    position: fixed;
+    right: 1rem;
+    z-index: 10;
+  }
+
+  
+  .bar1,
+  .bar2,
+  .bar3 {
+    width: 35px;
+    height: 5px;
+    background-color: #00A66A;
+    margin: 6px 0;
+    transition: 0.4s;
+  }
+  
+  .change .bar1 {
+    -webkit-transform: rotate(-45deg) translate(-9px, 6px);
+    transform: rotate(-45deg) translate(-8px, 6px);
+    background-color: #00A66A;
+  }
+  
+  .change .bar2 {
+    opacity: 0;
+  }
+  
+  .change .bar3 {
+    -webkit-transform: rotate(45deg) translate(-8px, -8px);
+    transform: rotate(45deg) translate(-9px, -8px);
+    background-color: #00A66A;
+  }
+  
+  .hide {
+    display: none;
+  }
+  
+  .navigation {
+    margin: 0;
+    width: 100%;
+    height: 60vh;
+    color: white;
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 9;
+    background-color: #F4ABCD;
+  }
+  
+  ul {
+    list-style-type: none;
+    font-size: 3rem;
+    font-family: helvetica;
+  }
+  
+  li {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  }
+
+  a {
+    position: relative;
+    text-decoration: none;
+    color: black;
+    font-size: 3rem;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+
+  a:hover {
+    background-color: #F4ABCD;
+    color: white;
+}
+
+@media (min-width: 600px) {
+    body {
+        margin-right: 5rem;
+        margin-left: 5rem;
+    }
+
+    .container {
+       display: inline-block;
+       cursor: pointer;
+       position: fixed;
+       right: 5rem;
+       top: 2.5rem;
+       z-index: 10;
+     }
+
+     
+     .bar1,
+     .bar2,
+     .bar3 {
+       width: 35px;
+       height: 5px;
+       background-color: #00A66A;
+       margin: 6px 0;
+       transition: 0.4s;
+     }
+     
+     .change .bar1 {
+       -webkit-transform: rotate(-45deg) translate(-9px, 6px);
+       transform: rotate(-45deg) translate(-8px, 6px);
+       background-color: #00A66A;
+     }
+     
+     .change .bar2 {
+       opacity: 0;
+     }
+     
+     .change .bar3 {
+       -webkit-transform: rotate(45deg) translate(-8px, -8px);
+       transform: rotate(45deg) translate(-9px, -8px);
+       background-color: #00A66A;
+     }
+     
+     .hide {
+       display: none;
+     }
+     
+     .navigation {
+       margin: 0;
+       width: 30vw;
+       height: 60vh;
+       color: white;
+       position: fixed;
+       top: 0;
+       right: 0;
+       z-index: 9;
+       background-color: #F4ABCD;
+     }
+     
+     ul {
+       list-style-type: none;
+       font-size: 3rem;
+       font-family: helvetica;
+     }
+     
+     li {
+       margin-top: 2rem;
+       margin-bottom: 2rem;
+     }
+
+     a {
+       position: relative;
+       text-decoration: none;
+       color: black;
+       font-size: 3rem;
+       font-family: Arial, Helvetica, sans-serif;
+     }
+
+     .logo {
+        font-family: Arial, Helvetica, sans-serif ;
+        font-size: 5rem;
+        font-weight: 500;
+
+     }
+
+     .container2 {
+        position: absolute;
+        background-color: #00A66A;
+        width: 30vw;
+        padding: 2rem;
+        height: 600px;
+        top: 0%;
+        left: 0;
+
+    }
+
+    .background {
+        background-image: url("images/bakgrunnurOmmig.png");
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+    }
+
+    a:hover {
+        background-color: #F4ABCD;
+        color: white;
+    }
+
+    .ommig {
+        display: grid;
+        grid-template-rows: 1fr 1fr;
+        justify-items: center;
+        position: absolute;
+        top: 60vw;
+        left: 16vw;
+        position: absolute;
+        justify-content: center;
+    }
+
+    #cv {
+        position: absolute;
+        top: 120vw;
+        left: 25vw;
+    }
+
+    }

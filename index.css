@@ -20,21 +20,18 @@ main{
  .logo {
     font-family: Arial, Helvetica, sans-serif ;
     font-size: 4rem;
-    font-weight: 500px;
+    font-weight: 500;
  }
 
- .grid-1-1 {
-    display: grid;
-    grid-template-rows: 1fr 1fr 1fr;
-    gap:2rem;
-    justify-items: center;
-}
+
 
 .btnPo {
     width: 93vw;
     height: 93vw;
     background-size: cover;
     background-image: url("images/portfolio.png");
+    margin: 1rem;
+    margin-right: 1rem;
 }
 
 .btnOm {
@@ -42,6 +39,8 @@ main{
     height: 93vw;
     background-size: cover;
     background-image: url("images/Ommig.png");
+    margin: 1rem;
+    margin-right: 1rem;
 }
 
 .btnKo {
@@ -49,6 +48,8 @@ main{
     height: 93vw;
     background-size: cover;
     background-image: url("images/Kontakt.png");
+    margin: 1rem;
+    margin-right: 1rem;
 }
 
 
@@ -63,7 +64,7 @@ main{
     .logo {
         font-family: Arial, Helvetica, sans-serif ;
         font-size: 5rem;
-        font-weight: 500px;
+        font-weight: 500;
 
      }
 
